@@ -118,3 +118,6 @@ select c.CustomerID,c.FirstName,c.LastName,c.Email,c.Phone,c.Address,c.DateJoine
  left join TCustomers as c on  t.customerID = c.CustomerID 
  left join Plans as p on t.PlanID = p.PlanID
  left join MobileDevices as m on t.PlanID = m.DeviceID
+
+
+ select Email FROM TCustomers
